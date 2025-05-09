@@ -84,7 +84,7 @@ ROOT_URLCONF = "config.urls"
 
 CSRF_TRUSTED_ORIGINS = [
     'https://web-production-eb295.up.railway.app',
-    'https://newedu.onrender.com',  # якщо є інші домени
+    'https://newedu.onrender.com',  # якщо є інші домениa
 ]
 
 TEMPLATES = [
