@@ -28,7 +28,7 @@ SECRET_KEY = config(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", default=True, cast=bool)
 
-ALLOWED_HOSTS = ["127.0.0.1", "newedu.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "newedu.onrender.com", "web-production-eb295.up.railway.app"]
 
 # change the default user models to our custom model
 AUTH_USER_MODEL = "accounts.User"
