@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account Confirmation</title>
+    <style>
+      :root {
+        --primary: #3b82f6;
+        --primary-dark: #60a5fa;
+        --background: #121212;
+        --card-bg: #1e1e1e;
+        --border: #333333;
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --header-bg: #252525;
+        --footer-bg: #252525;
+        --notice-bg: #2d2518;
+        --notice-border: #d97706;
+      }
+
+      /* Reset default styling */
+      body, p, h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        color: var(--text);
+        background-color: var(--background);
+        padding: 20px;
+        line-height: 1.5;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        color: var(--text);
+      }
+
+      h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: var(--primary);
+        text-decoration: none;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+      }
+
+      .card {
+        background-color: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .header {
+        padding: 1.5rem;
+        background-color: var(--header-bg);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .header h2 {
+        font-weight: 500;
+      }
+
+      .card-body {
+        padding: 1.5rem;
+      }
+
+      .footer {
+        padding: 1.5rem;
+        text-align: center;
+        background-color: var(--footer-bg);
+        border-top: 1px solid var(--border);
+        color: var(--text-muted);
+      }
+
+      .footer p {
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: var(--primary);
+        color: white;
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 4px;
+        font-weight: 500;
+        transition: background-color 0.2s ease;
+      }
+
+      .btn:hover {
+        background-color: var(--primary-dark);
+      }
+
+      .text-muted {
+        color: var(--text-muted);
+      }
+
+      .mb-1 {
+        margin-bottom: 0.5rem;
+      }
+
+      .mb-2 {
+        margin-bottom: 1rem;
+      }
+
+      .mb-3 {
+        margin-bottom: 1.5rem;
+      }
+
+      .small {
+        font-size: 14px;
+      }
+
+      .notice {
+        background-color: var(--notice-bg);
+        border-left: 3px solid var(--notice-border);
+        padding: 10px 15px;
+        margin: 15px 0;
+        font-size: 14px;
+      }
+      
+      ul {
+        padding-left: 20px;
+        margin: 10px 0;
+      }
+      
+      ul li {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <h2>newEDU</h2>
+          <p class="text-muted small">Learning management system</p>
+        </div>
+        <div class="card-body">
+          <h1>Confirm your account</h1>
+          <p class="mb-2">Dear <b>{{ user.get_full_name }}</b>,</p>
+          <p>
+            A new student account with ID <b>{{ user.username }}</b> has been created for you.
+            You're receiving this email because the newEDU admin has registered you on newedu.com.
+          </p>
+          
+          <div class="mb-2">
+            <h4 class="mb-1">Login credentials:</h4>
+            <ul>
+              <li>ID: {{ user.username }}</li>
+              <li>Password: {{ password }}</li>
+            </ul>
+          </div>
+          
+          <p class="mb-3">To secure your account, please change your password after logging in.</p>
+          
+          <p class="mb-3">
+            <a href="http://localhost:3000/auth/confirm-email?key={{ key }}" class="btn">
+              Confirm Email and Login
+            </a>
+          </p>
+          
+          <div class="notice">
+            If you didn't expect this email, you can simply ignore it.
+          </div>
+        </div>
+        <div class="footer">
+          <p class="mb-1">Sincerely, newEDU team</p>
+          <p>support@newedu.com | +(251) 90-000-0000</p>
+          <p>&copy; 2025 <a href="newedu.com">newedu.com</a> | All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

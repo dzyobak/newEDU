@@ -1,0 +1,201 @@
+{% load static %}
+{% load i18n %}
+
+<div id="side-nav" class="d-flex flex-column bg-light vh-100 border-end">
+    <div class="main-menu flex-grow-1">
+        <div class="text-center py-4 border-bottom">
+            <div class="d-md-none mb-2">
+                <button class="btn btn-outline-secondary btn-sm" onclick="toggleSidebar()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <a href="/" class="text-decoration-none">
+                <span class="h2 fw-bold text-dark">newEDU</span>
+            </a>
+            <p class="mt-2 small text-muted">
+                <mark class="bg-secondary text-light rounded px-2">
+                    {{ request.user.get_user_role }}
+                </mark>
+            </p>
+        </div>
+
+        {% url 'home' as hom %} {% url 'dashboard' as dash %} {% url 'profile' as prof %}
+        {% url 'lecturer_list' as lec %} {% url 'student_list' as stu %}
+        {% url 'course_allocation_view' as cav %} {% url 'programs' as pro %}
+        {% url 'session_list' as sess %} {% url 'semester_list' as sem %}
+        {% url 'add_score' as ascore %} {% url 'grade_results' as vr %}
+        {% url 'ass_results' as ar %} {% url 'course_registration' as cr %}
+        {% url 'edit_profile' as ep %} {% url 'change_password' as cp %}
+        {% url 'quiz_progress' as qpr %} {% url 'quiz_marking' as qce %}
+        {% url 'user_course_list' as ucl %} {% url 'admin_panel' as admin_p %}
+
+        <ul class="nav flex-column px-3 pt-3">
+            {% if request.user.is_superuser %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == dash %}active fw-bold{% endif %}" href="{{ dash }}">
+                    <i class="fas fa-tachometer-alt me-2"></i>{% trans 'Dashboard' %}
+                </a>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == hom %}active fw-bold{% endif %}" href="{{ hom }}">
+                    <i class="fas fa-home me-2"></i>{% trans 'Home' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == prof %}active fw-bold{% endif %}" href="{{ prof }}">
+                    <i class="fas fa-user me-2"></i>{% trans 'Profile' %}
+                </a>
+            </li>
+
+            {% if request.user.is_superuser %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == admin_p %}active fw-bold{% endif %}" href="{{ admin_p }}">
+                    <i class="fas fa-user-tie me-2"></i>{% trans 'Admin Panel' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == lec %}active fw-bold{% endif %}" href="{{ lec }}">
+                    <i class="fas fa-chalkboard-teacher me-2"></i>{% trans 'Lecturers' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == stu %}active fw-bold{% endif %}" href="{{ stu }}">
+                    <i class="fas fa-user-graduate me-2"></i>{% trans 'Students' %}
+                </a>
+            </li>
+            {% endif %}
+
+            {% if request.user.is_lecturer or request.user.is_student %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == ucl %}active fw-bold{% endif %}" href="{{ ucl }}">
+                    <i class="fas fa-book me-2"></i>{% trans 'My Courses' %}
+                </a>
+            </li>
+            {% endif %}
+
+            {% if request.user.is_superuser or request.user.is_lecturer %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == pro %}active fw-bold{% endif %}" href="{{ pro }}">
+                    <i class="fas fa-book-open me-2"></i>{% trans 'Programs & Courses' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == qce %}active fw-bold{% endif %}" href="{{ qce }}">
+                    <i class="fas fa-check-double me-2"></i>{% trans 'Complete Exams' %}
+                </a>
+            </li>
+            {% endif %}
+
+            {% if request.user.is_superuser %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == qpr %}active fw-bold{% endif %}" href="{{ qpr }}">
+                    <i class="fas fa-record-vinyl me-2"></i>{% trans 'Quiz Progress Rec' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == cav %}active fw-bold{% endif %}" href="{{ cav }}">
+                    <i class="fas fa-tasks me-2"></i>{% trans 'Course Allocation' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == sess %}active fw-bold{% endif %}" href="{{ sess }}">
+                    <i class="fas fa-calendar-week me-2"></i>{% trans 'Manage Session' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == sem %}active fw-bold{% endif %}" href="{{ sem }}">
+                    <i class="fas fa-calendar-alt me-2"></i>{% trans 'Manage Semester' %}
+                </a>
+            </li>
+            {% endif %}
+
+            {% if request.user.is_lecturer %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == ascore %}active fw-bold{% endif %}" href="{{ ascore }}">
+                    <i class="fas fa-table me-2"></i>{% trans 'Manage Score' %}
+                </a>
+            </li>
+            {% endif %}
+
+            {% if request.user.is_student %}
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == qpr %}active fw-bold{% endif %}" href="{{ qpr }}">
+                    <i class="fas fa-record-vinyl me-2"></i>{% trans 'Quiz Progress Rec' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == vr %}active fw-bold{% endif %}" href="{{ vr }}">
+                    <i class="fa fa-spell-check me-2"></i>{% trans 'Grade Results' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == ar %}active fw-bold{% endif %}" href="{{ ar }}">
+                    <i class="fa fa-list-ol me-2"></i>{% trans 'Assessment Results' %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if request.path == cr %}active fw-bold{% endif %}" href="{{ cr }}">
+                    <i class="fas fa-plus me-2"></i>{% trans 'Add' %} &amp; {% trans 'Drop Course' %}
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+
+        <div class="px-3 pt-4">
+            <small class="text-muted text-uppercase">{% trans 'Others' %}</small>
+            <ul class="nav flex-column mt-2">
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == ep %}active fw-bold{% endif %}" href="{{ ep }}">
+                        <i class="fas fa-cogs me-2"></i>{% trans 'Account Setting' %}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == cp %}active fw-bold{% endif %}" href="{{ cp }}">
+                        <i class="fas fa-key me-2"></i>{% trans 'Change Password' %}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="text-center small text-muted mt-auto py-3">
+        <form action="{% url 'set_language' %}" method="post" id="lang-form">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ redirect_to }}">
+            <!-- Можна додати селектор мов -->
+        </form>
+        <div>
+            newEDU &copy; <script>document.write(new Date().getFullYear());</script>
+        </div>
+    </footer>
+</div>
+
+<style>
+	#side-nav .nav-link {
+		color: #333;
+		padding: 10px 15px;
+		border-radius: 0; /* Без заокруглення */
+		transition: background-color 0.2s;
+	}
+	#side-nav .nav-link:hover {
+		background-color: #f0f0f0; /* Світло-сірий ховер */
+		color: #000;
+	}
+	#side-nav .nav-link.active {
+		background-color: #ddd;
+		color: #000;
+		font-weight: bold;
+	}
+</style>
+
+{% block js %}
+<script>
+    const langSelect = document.getElementById("lang-select");
+    if (langSelect) {
+        langSelect.addEventListener("change", function () {
+            document.getElementById("lang-form").submit();
+        });
+    }
+</script>
+{% endblock js %}
