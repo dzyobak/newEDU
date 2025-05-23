@@ -150,6 +150,7 @@ def gettext(s):
 
 
 LANGUAGES = (
+    ("uk", gettext("Ukrainian")),
     ("en", gettext("English")),
     # ("fr", gettext("French")),
     # ("es", gettext("Spanish")),
@@ -158,8 +159,8 @@ LANGUAGES = (
 
 LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
 
-MODELTRANSLATION_DEFAULT_LANGUAGE = "en"
-LANGUAGE_CODE = "en-us"
+MODELTRANSLATION_DEFAULT_LANGUAGE = "uk"
+LANGUAGE_CODE = "uk"
 
 TIME_ZONE = "UTC"
 

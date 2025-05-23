@@ -1,0 +1,1356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-23 11:59+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+msgid "Bachelor"
+msgstr "Бакалавр"
+
+msgid "Master"
+msgstr "Магістр"
+
+msgid "Bachelor Degree"
+msgstr "Ступінь бакалавра"
+
+msgid "Master Degree"
+msgstr "Ступінь магістра"
+
+msgid "Father"
+msgstr "Батько"
+
+msgid "Mother"
+msgstr "Мати"
+
+msgid "Brother"
+msgstr "Брат"
+
+msgid "Sister"
+msgstr "Сестра"
+
+msgid "Grand mother"
+msgstr "Бабуся"
+
+msgid "Grand father"
+msgstr "Дідусь"
+
+msgid "Other"
+msgstr "Інше"
+
+msgid "M"
+msgstr "Ч"
+
+msgid "Male"
+msgstr "Чоловік"
+
+msgid "F"
+msgstr "Ж"
+
+msgid "Female"
+msgstr "Жінка"
+
+msgid "Admin"
+msgstr "Адміністратор"
+
+msgid "Student"
+msgstr "Студент"
+
+msgid "Lecturer"
+msgstr "Викладач"
+
+msgid "Parent"
+msgstr "Батько/Мати"
+
+msgid "Enter a valid username. This value may contain only English letters, numbers, and @/./+/-/_ characters."
+msgstr "Введіть коректне ім'я користувача. Це значення може містити лише англійські літери, цифри та символи @/./+/-/_ ."
+
+msgid "English"
+msgstr "Англійська"
+
+msgid "Ukrainian"
+msgstr "Українська"
+
+msgid "First"
+msgstr "Перший"
+
+msgid "Second"
+msgstr "Другий"
+
+msgid "Third"
+msgstr "Третій"
+
+msgid "News"
+msgstr "Новини"
+
+msgid "Event"
+msgstr "Подія"
+
+msgid "Valid Files: pdf, docx, doc, xls, xlsx, ppt, pptx, zip, rar, 7zip"
+msgstr "Дозволені файли: pdf, docx, doc, xls, xlsx, ppt, pptx, zip, rar, 7zip"
+
+msgid "Valid video formats: mp4, mkv, wmv, 3gp, f4v, avi, mp3"
+msgstr "Дозволені відеоформати: mp4, mkv, wmv, 3gp, f4v, avi, mp3"
+
+msgid "Questions"
+msgstr "Питання"
+
+msgid "Content"
+msgstr "Зміст"
+
+msgid "Random"
+msgstr "Випадково"
+
+msgid "None"
+msgstr "Немає"
+
+msgid "Assignment"
+msgstr "Завдання"
+
+msgid "Exam"
+msgstr "Екзамен"
+
+msgid "Practice Quiz"
+msgstr "Тренувальна вікторина"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "A detailed description of the quiz"
+msgstr "Детальний опис вікторини"
+
+msgid "Random Order"
+msgstr "Випадковий порядок"
+
+msgid "Display the questions in a random order or as they are set?"
+msgstr "Відображати питання у випадковому порядку чи як встановлено?"
+
+msgid "Answers at end"
+msgstr "Відповіді в кінці"
+
+msgid "Correct answer is NOT shown after question. Answers displayed at the end."
+msgstr "Правильна відповідь НЕ показується після питання. Відповіді відображаються в кінці."
+
+msgid "Exam Paper"
+msgstr "Екзаменаційний лист"
+
+msgid "If yes, the result of each attempt by a user will be stored. Necessary for marking."
+msgstr "Якщо так, результат кожної спроби користувача буде збережено. Необхідно для оцінювання."
+
+msgid "Single Attempt"
+msgstr "Одна спроба"
+
+msgid "If yes, only one attempt by a user will be permitted."
+msgstr "Якщо так, користувачу буде дозволено лише одну спробу."
+
+msgid "Pass Mark"
+msgstr "Прохідний бал"
+
+msgid "Percentage required to pass exam."
+msgstr "Відсоток, необхідний для проходження іспиту."
+
+msgid "Draft"
+msgstr "Чернетка"
+
+msgid "If yes, the quiz is not displayed in the quiz list and can only be taken by users who can edit quizzes."
+msgstr "Якщо так, вікторина не відображається у списку вікторин і доступна лише користувачам, які можуть редагувати вікторини."
+
+msgid "Quiz"
+msgstr "Вікторина"
+
+msgid "Quizzes"
+msgstr "Вікторини"
+
+msgid "Pass mark must be between 0 and 100."
+msgstr "Прохідний бал має бути між 0 і 100."
+
+msgid "User"
+msgstr "Користувач"
+
+msgid "Score"
+msgstr "Бали"
+
+msgid "User Progress"
+msgstr "Прогрес користувача"
+
+msgid "User progress records"
+msgstr "Записи прогресу користувача"
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid "Invalid score values."
+msgstr "Некоректні значення балів."
+
+msgid "Question set of the quiz is empty. Please configure questions properly."
+msgstr "Набір питань для вікторини порожній. Будь ласка, налаштуйте питання правильно."
+
+msgid "Course"
+msgstr "Курс"
+
+msgid "Question Order"
+msgstr "Порядок питань"
+
+msgid "Question List"
+msgstr "Список питань"
+
+msgid "Incorrect questions"
+msgstr "Неправильні питання"
+
+msgid "Current Score"
+msgstr "Поточний бал"
+
+msgid "Complete"
+msgstr "Завершено"
+
+msgid "User Answers"
+msgstr "Відповіді користувача"
+
+msgid "Start"
+msgstr "Почати"
+
+msgid "End"
+msgstr "Кінець"
+
+msgid "Can see completed exams."
+msgstr "Може переглядати завершені іспити."
+
+msgid "You have passed this quiz, congratulations!"
+msgstr "Ви пройшли цю вікторину, вітаємо!"
+
+msgid "You failed this quiz, try again."
+msgstr "Ви не пройшли цю вікторину, спробуйте ще раз."
+
+msgid "Figure"
+msgstr "Зображення"
+
+msgid "Add an image for the question if necessary."
+msgstr "Додайте зображення до питання, якщо потрібно."
+
+msgid "Enter the question text that you want displayed"
+msgstr "Введіть текст питання, який потрібно відобразити"
+
+msgid "Question"
+msgstr "Питання"
+
+msgid "Explanation to be shown after the question has been answered."
+msgstr "Пояснення, яке буде показано після відповіді на питання."
+
+msgid "Explanation"
+msgstr "Пояснення"
+
+msgid "The order in which multiple-choice options are displayed to the user"
+msgstr "Порядок, у якому варіанти вибору відображаються користувачу"
+
+msgid "Choice Order"
+msgstr "Порядок вибору"
+
+msgid "Multiple Choice Question"
+msgstr "Питання з вибором відповіді"
+
+msgid "Multiple Choice Questions"
+msgstr "Питання з вибором відповіді"
+
+msgid "Enter the choice text that you want displayed"
+msgstr "Введіть текст варіанту відповіді, який потрібно відобразити"
+
+msgid "Is this a correct answer?"
+msgstr "Це правильна відповідь?"
+
+msgid "Correct"
+msgstr "Правильно"
+
+msgid "Choice"
+msgstr "Вибір"
+
+msgid "Choices"
+msgstr "Варіанти"
+
+msgid "Essay Style Question"
+msgstr "Питання у вигляді есе"
+
+msgid "Essay Style Questions"
+msgstr "Питання у вигляді есе"
+
+msgid "Bad request"
+msgstr "Некоректний запит"
+
+msgid "Please make sure the form is correctly filled."
+msgstr "Будь ласка, переконайтеся, що форма заповнена правильно."
+
+msgid "Return to the app"
+msgstr "Повернутися до додатку"
+
+msgid "forbidden"
+msgstr "заборонено"
+
+msgid "You need the proper permission to make that request."
+msgstr "Вам потрібен відповідний дозвіл для виконання цього запиту."
+
+msgid "Looks like the page you"
+msgstr "Схоже, сторінка, яку ви"
+
+msgid "Server error"
+msgstr "Помилка сервера"
+
+msgid "Please try again later."
+msgstr "Будь ласка, спробуйте пізніше."
+
+msgid "Learning management system"
+msgstr "Система управління навчанням"
+
+msgid "Home"
+msgstr "Головна"
+
+msgid "Lecturers"
+msgstr "Викладачі"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Lecturer Add Form"
+msgstr "Форма додавання викладача"
+
+msgid "Personal Info"
+msgstr "Особиста інформація"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Students"
+msgstr "Студенти"
+
+msgid "Student Add Form"
+msgstr "Форма додавання студента"
+
+msgid "Others"
+msgstr "Інші"
+
+msgid "Update"
+msgstr "Оновити"
+
+msgid "Lecturer Update Form"
+msgstr "Форма оновлення викладача"
+
+msgid "Email"
+msgstr "Електронна пошта"
+
+msgid "Student Update Form"
+msgstr "Форма оновлення студента"
+
+msgid "Add Lecturer"
+msgstr "Додати викладача"
+
+msgid "Download pdf"
+msgstr "Завантажити PDF"
+
+msgid "ID No."
+msgstr "ID номер"
+
+msgid "Full Name"
+msgstr "Повне ім'я"
+
+msgid "Mob No."
+msgstr "Моб. номер"
+
+msgid "Address/city"
+msgstr "Адреса/місто"
+
+msgid "Last login"
+msgstr "Останній вхід"
+
+msgid "Action"
+msgstr "Дія"
+
+msgid "Download PDF"
+msgstr "Завантажити PDF"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "No Lecturer(s)."
+msgstr "Немає викладачів."
+
+msgid "Add Lecturer Now."
+msgstr "Додати викладача зараз."
+
+msgid "Last login:"
+msgstr "Останній вхід:"
+
+msgid "Role:"
+msgstr "Роль:"
+
+msgid "Edit Profile"
+msgstr "Редагувати профіль"
+
+msgid "Change password"
+msgstr "Змінити пароль"
+
+msgid "My Courses"
+msgstr "Мої курси"
+
+msgid "No courses assigned!"
+msgstr "Курси не призначені!"
+
+msgid "First Name:"
+msgstr "Ім'я:"
+
+msgid "Last Name:"
+msgstr "Прізвище:"
+
+msgid "ID No.:"
+msgstr "ID номер:"
+
+msgid "Applicant Info"
+msgstr "Інформація про заявника"
+
+msgid "School:"
+msgstr "Школа:"
+
+msgid "Hawas Preparatory School"
+msgstr "Підготовча школа Hawas"
+
+msgid "Level:"
+msgstr "Рівень:"
+
+msgid "Contact Info"
+msgstr "Контактна інформація"
+
+msgid "Email:"
+msgstr "Електронна пошта:"
+
+msgid "Tel No.:"
+msgstr "Тел. номер:"
+
+msgid "Address/city:"
+msgstr "Адреса/місто:"
+
+msgid "Important Dates"
+msgstr "Важливі дати"
+
+msgid "Academic Year:"
+msgstr "Навчальний рік:"
+
+msgid "Semester"
+msgstr "Семестр"
+
+msgid "Registered Date:"
+msgstr "Дата реєстрації:"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "Change Program"
+msgstr "Змінити програму"
+
+msgid "First Name"
+msgstr "Ім'я"
+
+msgid "Last Name"
+msgstr "Прізвище"
+
+msgid "School"
+msgstr "Школа"
+
+msgid "Level"
+msgstr "Рівень"
+
+msgid "Program"
+msgstr "Програма"
+
+msgid "Tel No."
+msgstr "Тел. номер"
+
+msgid "Academic Year"
+msgstr "Навчальний рік"
+
+msgid "Registered Date"
+msgstr "Дата реєстрації"
+
+msgid "Add Student"
+msgstr "Додати студента"
+
+msgid "No Student."
+msgstr "Немає студентів."
+
+msgid "Add Student Now."
+msgstr "Додати студента зараз."
+
+msgid "Dashboard"
+msgstr "Панель керування"
+
+msgid "Dashboard settings"
+msgstr "Налаштування панелі"
+
+msgid "Display grid"
+msgstr "Відображати сіткою"
+
+msgid "Display table"
+msgstr "Відображати таблицею"
+
+msgid "Manage dashboard"
+msgstr "Керування панеллю"
+
+msgid "Administrators"
+msgstr "Адміністратори"
+
+msgid "Lab Assistance"
+msgstr "Лаборанти"
+
+msgid "Librarians"
+msgstr "Бібліотекарі"
+
+msgid "Supervisors"
+msgstr "Куратори"
+
+msgid "Office Assistance"
+msgstr "Офісні працівники"
+
+msgid "Latest activities"
+msgstr "Останні дії"
+
+msgid "No recent activity"
+msgstr "Немає нещодавніх дій"
+
+msgid "School Demographics"
+msgstr "Демографія школи"
+
+msgid "Add New Post"
+msgstr "Додати новий пост"
+
+msgid "Events"
+msgstr "Події"
+
+msgid "news"
+msgstr "новини"
+
+msgid "events"
+msgstr "події"
+
+msgid "Edit"
+msgstr "Редагувати"
+
+msgid "ago"
+msgstr "тому"
+
+msgid "School news and events will appear here."
+msgstr "Новини та події школи з'являться тут."
+
+msgid "Post form"
+msgstr "Форма публікації"
+
+msgid "Post Form"
+msgstr "Форма публікації"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "Semester list"
+msgstr "Список семестрів"
+
+msgid "Add New Semester"
+msgstr "Додати новий семестр"
+
+msgid "Semester List"
+msgstr "Список семестрів"
+
+msgid "Is Current semester"
+msgstr "Поточний семестр"
+
+msgid "Session"
+msgstr "Сесія"
+
+msgid "Next Semester Begins"
+msgstr "Початок наступного семестру"
+
+msgid "Actions"
+msgstr "Дії"
+
+msgid "No Semester."
+msgstr "Немає семестрів."
+
+msgid "Add Semester Now."
+msgstr "Додати семестр зараз."
+
+msgid "Semester Form"
+msgstr "Форма семестру"
+
+msgid "Semester Add & update Form"
+msgstr "Форма додавання та оновлення семестру"
+
+msgid "Session List"
+msgstr "Список сесій"
+
+msgid "Add New Session"
+msgstr "Додати нову сесію"
+
+msgid "Is Current Session"
+msgstr "Поточна сесія"
+
+msgid "Next Session Begins"
+msgstr "Початок наступної сесії"
+
+msgid "No Session."
+msgstr "Немає сесій."
+
+msgid "Add Session Now."
+msgstr "Додати сесію зараз."
+
+msgid "Session Form"
+msgstr "Форма сесії"
+
+msgid "Session Add & update Form"
+msgstr "Форма додавання та оновлення сесії"
+
+msgid "Programs"
+msgstr "Програми"
+
+msgid "Course Form"
+msgstr "Форма курсу"
+
+msgid "Course Detail"
+msgstr "Деталі курсу"
+
+msgid "Other Info"
+msgstr "Інша інформація"
+
+msgid "Course Allocations"
+msgstr "Розподіл курсів"
+
+msgid "Allocation Form"
+msgstr "Форма розподілу"
+
+msgid "Course Allocation Form"
+msgstr "Форма розподілу курсів"
+
+msgid "Allocation list"
+msgstr "Список розподілу"
+
+msgid "Allocate Now"
+msgstr "Розподілити зараз"
+
+msgid "Courses"
+msgstr "Курси"
+
+msgid "Edit or Update"
+msgstr "Редагувати або оновити"
+
+msgid "Deallocate"
+msgstr "Скасувати розподіл"
+
+msgid "No Course Allocated."
+msgstr "Немає розподілених курсів."
+
+msgid "Allocate now"
+msgstr "Розподілити зараз"
+
+msgid "Course Registration"
+msgstr "Реєстрація на курс"
+
+msgid "Course Add"
+msgstr "Додати курс"
+
+msgid "Drop"
+msgstr "Відмовитися"
+
+msgid "Calender is off"
+msgstr "Календар вимкнено"
+
+msgid "Check the university calender"
+msgstr "Перевірте університетський календар"
+
+msgid "Save Score"
+msgstr "Зберегти оцінку"
+
+msgid "Add Selected"
+msgstr "Додати вибрані"
+
+msgid "First Semester:"
+msgstr "Перший семестр:"
+
+msgid "Mark"
+msgstr "Оцінка"
+
+msgid "Course Code"
+msgstr "Код курсу"
+
+msgid "Course Title"
+msgstr "Назва курсу"
+
+msgid "Cr.Hr(s)"
+msgstr "Кредит(и)"
+
+msgid "Year"
+msgstr "Рік"
+
+msgid "Classification"
+msgstr "Класифікація"
+
+msgid "Elective Group"
+msgstr "Група вибіркових"
+
+msgid "Elective"
+msgstr "Вибірковий"
+
+msgid "Core"
+msgstr "Базовий"
+
+msgid "No Course."
+msgstr "Немає курсів."
+
+msgid "First semester Credit(s):"
+msgstr "Кредит(и) першого семестру:"
+
+msgid "Second Semester:"
+msgstr "Другий семестр:"
+
+msgid "Second semester credit(s):"
+msgstr "Кредит(и) другого семестру:"
+
+msgid "Registerd course credit(s):"
+msgstr "Зареєстровані кредити курсу:"
+
+msgid "Total credit(s):"
+msgstr "Загальні кредити:"
+
+msgid "Course Drop"
+msgstr "Відмова від курсу"
+
+msgid "Drop Selected"
+msgstr "Відмовитися від вибраних"
+
+msgid "Print Registration Form"
+msgstr "Друкувати форму реєстрації"
+
+msgid "Print Registerd Courses"
+msgstr "Друкувати зареєстровані курси"
+
+msgid "My courses"
+msgstr "Мої курси"
+
+msgid "Edit course"
+msgstr "Редагувати курс"
+
+msgid "Upload new file"
+msgstr "Завантажити новий файл"
+
+msgid "Upload new video"
+msgstr "Завантажити нове відео"
+
+msgid "Take a Quiz"
+msgstr "Пройти вікторину"
+
+msgid "Video Tutorials"
+msgstr "Відеоуроки"
+
+msgid "Video Title"
+msgstr "Назва відео"
+
+msgid "Uploaded Date"
+msgstr "Дата завантаження"
+
+msgid "Get Started"
+msgstr "Почати"
+
+msgid "Play now"
+msgstr "Дивитися зараз"
+
+msgid "No video Uploaded."
+msgstr "Немає завантажених відео."
+
+msgid "Upload now."
+msgstr "Завантажити зараз."
+
+msgid "Documentations"
+msgstr "Документація"
+
+msgid "File name"
+msgstr "Назва файлу"
+
+msgid "Updated Date"
+msgstr "Дата оновлення"
+
+msgid "Downloads"
+msgstr "Завантаження"
+
+msgid "Download"
+msgstr "Завантажити"
+
+msgid "No File Uploaded."
+msgstr "Немає завантажених файлів."
+
+msgid "Lecturer(s)"
+msgstr "Викладач(і)"
+
+msgid "No lecturer assigned for this course"
+msgstr "Немає призначених викладачів для цього курсу"
+
+msgid "Program Form"
+msgstr "Форма програми"
+
+msgid "Program Add Form"
+msgstr "Форма додавання програми"
+
+msgid "Add Program"
+msgstr "Додати програму"
+
+msgid "Program List"
+msgstr "Список програм"
+
+msgid "Program Name"
+msgstr "Назва програми"
+
+msgid "Summary"
+msgstr "Підсумок"
+
+msgid "No program."
+msgstr "Немає програм."
+
+msgid "Add program now."
+msgstr "Додати програму зараз."
+
+msgid "Add Course"
+msgstr "Додати курс"
+
+msgid "Course Name"
+msgstr "Назва курсу"
+
+msgid "Cr.Hr"
+msgstr "Кредит"
+
+msgid "Current Semester"
+msgstr "Поточний семестр"
+
+msgid "No course for this progrm."
+msgstr "Немає курсів для цієї програми."
+
+msgid "Add one now."
+msgstr "Додати зараз."
+
+msgid "Taken Courses:"
+msgstr "Взяті курси:"
+
+msgid "Taken"
+msgstr "Взято"
+
+msgid "All Courses:"
+msgstr "Всі курси:"
+
+msgid "Invoices"
+msgstr "Рахунки"
+
+msgid "Pay now"
+msgstr "Оплатити зараз"
+
+msgid "Search All... #course, #program, #Quiz, #News, #Events"
+msgstr "Пошук... #курс, #програма, #вікторина, #новини, #події"
+
+msgid "Admin Panel"
+msgstr "Панель адміністратора"
+
+msgid "Profile"
+msgstr "Профіль"
+
+msgid "Setting"
+msgstr "Налаштування"
+
+msgid "Signout"
+msgstr "Вийти"
+
+msgid "Payment Succeed, You has been make payment successfuly."
+msgstr "Оплата успішна, ви успішно здійснили оплату."
+
+msgid "Redirect to your dashboard in"
+msgstr "Перенаправлення на вашу панель через"
+
+msgid "Coinbase"
+msgstr "Coinbase"
+
+msgid "Address/City"
+msgstr "Адреса/Місто"
+
+msgid "This is the correct answer"
+msgstr "Це правильна відповідь"
+
+msgid "This was your answer."
+msgstr "Це була ваша відповідь."
+
+msgid "You answered the above question incorrectly"
+msgstr "Ви неправильно відповіли на питання вище"
+
+msgid "MC Question Form"
+msgstr "Форма питання з вибором"
+
+msgid "Add questions"
+msgstr "Додати питання"
+
+msgid "question added"
+msgstr "питання додано"
+
+msgid "Correct the error(s) below."
+msgstr "Виправте помилки нижче."
+
+msgid "Progress Page"
+msgstr "Сторінка прогресу"
+
+msgid "User Progress Page"
+msgstr "Сторінка прогресу користувача"
+
+msgid "Quiz Progress Rec"
+msgstr "Запис прогресу вікторини"
+
+msgid "Question Category Scores"
+msgstr "Бали за категорії питань"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Correctly answererd"
+msgstr "Правильно відповіли"
+
+msgid "Incorrect"
+msgstr "Неправильно"
+
+msgid "Previous exam papers"
+msgstr "Попередні екзаменаційні роботи"
+
+msgid "Student exam results"
+msgstr "Результати екзаменів студента"
+
+msgid "Below are the results of exams that you have sat"
+msgstr "Нижче наведені результати екзаменів, які ви склали"
+
+msgid "Total complete exams:"
+msgstr "Всього завершених екзаменів:"
+
+msgid "Quiz Title"
+msgstr "Назва вікторини"
+
+msgid "Possible Score"
+msgstr "Можливий бал"
+
+msgid "Out of 100%"
+msgstr "З 100%"
+
+msgid "Progress records will appear here"
+msgstr "Записи прогресу з'являться тут"
+
+msgid "The previous question"
+msgstr "Попереднє питання"
+
+msgid "Your answer was"
+msgstr "Ваша відповідь була"
+
+msgid "No explanation set to this question."
+msgstr "Немає пояснення до цього питання."
+
+msgid "Quiz instractions"
+msgstr "Інструкції до вікторини"
+
+msgid "You can't go back to the previous question after you submit it, so double check your answer before proceeding to the next one!"
+msgstr "Ви не можете повернутися до попереднього питання після відправки, тому перевірте свою відповідь перед переходом до наступного!"
+
+msgid "Understood"
+msgstr "Зрозуміло"
+
+msgid "of"
+msgstr "з"
+
+msgid "Quiz category"
+msgstr "Категорія вікторини"
+
+msgid "Previous"
+msgstr "Попередній"
+
+msgid "Quiz Form"
+msgstr "Форма вікторини"
+
+msgid "Quiz form for"
+msgstr "Форма вікторини для"
+
+msgid "Hold down"
+msgstr "Утримуйте"
+
+msgid "or"
+msgstr "або"
+
+msgid "on a Mac, to select more than one."
+msgstr "на Mac, щоб вибрати більше одного."
+
+msgid "Continue"
+msgstr "Продовжити"
+
+msgid "Add Quiz"
+msgstr "Додати вікторину"
+
+msgid "You will only get one attempt at this quiz"
+msgstr "У вас буде лише одна спроба для цієї вікторини"
+
+msgid "Start quiz"
+msgstr "Почати вікторину"
+
+msgid "Result of"
+msgstr "Результат"
+
+msgid "for"
+msgstr "для"
+
+msgid "Completed Exams"
+msgstr "Завершені екзамени"
+
+msgid "Marking"
+msgstr "Оцінювання"
+
+msgid "Quiz title"
+msgstr "Назва вікторини"
+
+msgid "Completed"
+msgstr "Завершено"
+
+msgid "User answer"
+msgstr "Відповідь користувача"
+
+msgid "incorrect"
+msgstr "неправильно"
+
+msgid "Toggle whether correct"
+msgstr "Перемкнути правильність"
+
+msgid "Quiz Results for"
+msgstr "Результати вікторини для"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "Calculating your result..."
+msgstr "Обчислення вашого результату..."
+
+msgid "Quiz result"
+msgstr "Результат вікторини"
+
+msgid "You answered"
+msgstr "Ви відповіли"
+
+msgid "questions correctly out of"
+msgstr "питань правильно з"
+
+msgid "giving you"
+msgstr "що дає вам"
+
+msgid "% correct"
+msgstr "% правильно"
+
+msgid "Review the questions below and try the quiz again in the future"
+msgstr "Перегляньте питання нижче і спробуйте пройти вікторину знову в майбутньому"
+
+msgid "The result of this quiz will be stored in your progress section"
+msgstr "Результат цієї вікторини буде збережено у вашому розділі прогресу"
+
+msgid "so you can review and monitor your progression"
+msgstr "щоб ви могли переглядати та відстежувати свій прогрес"
+
+msgid "Your session score is"
+msgstr "Ваш бал за сесію"
+
+msgid "out of a possible"
+msgstr "з можливих"
+
+msgid "No explanation set for this question."
+msgstr "Немає пояснення для цього питання."
+
+msgid "Your answer"
+msgstr "Ваша відповідь"
+
+msgid "All Quizzes"
+msgstr "Всі вікторини"
+
+msgid "Complete Exams"
+msgstr "Завершені екзамени"
+
+msgid "List of complete exams"
+msgstr "Список завершених екзаменів"
+
+msgid "Filter"
+msgstr "Фільтр"
+
+msgid "Total complete exams"
+msgstr "Всього завершених екзаменів"
+
+msgid "View details"
+msgstr "Переглянути деталі"
+
+msgid "No completed exams for you"
+msgstr "Немає завершених екзаменів для вас"
+
+msgid "Dj Learning Management System - Login"
+msgstr "Система управління навчанням - Вхід"
+
+msgid "ID Number"
+msgstr "ID номер"
+
+msgid "Invalid ID & Password."
+msgstr "Неправильний ID та пароль."
+
+msgid "SIGN IN"
+msgstr "УВІЙТИ"
+
+msgid "Forgot password ?"
+msgstr "Забули пароль?"
+
+msgid "Password Reset | Learning management system"
+msgstr "Скидання пароля | Система управління навчанням"
+
+msgid "Password Reset"
+msgstr "Скидання пароля"
+
+msgid "Request Password Reset"
+msgstr "Запит на скидання пароля"
+
+msgid "Password Reset Complete | Learning management system"
+msgstr "Скидання пароля завершено | Система управління навчанням"
+
+msgid "Password Reset Complete"
+msgstr "Скидання пароля завершено"
+
+msgid "Your password has been set, you are now able to Log In!"
+msgstr "Ваш пароль встановлено, тепер ви можете увійти!"
+
+msgid "Sign In Here"
+msgstr "Увійти тут"
+
+msgid "New Password | Learning management system"
+msgstr "Новий пароль | Система управління навчанням"
+
+msgid "Confirm New Password"
+msgstr "Підтвердити новий пароль"
+
+msgid "Reset Password"
+msgstr "Скинути пароль"
+
+msgid "Email Sent | Learning management system"
+msgstr "Лист надіслано | Система управління навчанням"
+
+msgid "Email sent"
+msgstr "Лист надіслано"
+
+msgid "Back To Login"
+msgstr "Повернутися до входу"
+
+msgid "Register | Learning management system"
+msgstr "Реєстрація | Система управління навчанням"
+
+msgid "Create Your Account"
+msgstr "Створити обліковий запис"
+
+msgid "SIGN UP"
+msgstr "ЗАРЕЄСТРУВАТИСЯ"
+
+msgid "Already Registered ?"
+msgstr "Вже зареєстровані?"
+
+msgid "Manage Score"
+msgstr "Управління оцінками"
+
+msgid "Select Your Course Here"
+msgstr "Виберіть ваш курс тут"
+
+msgid "To manage scores, please select the course using the button above."
+msgstr "Для управління оцінками, будь ласка, виберіть курс за допомогою кнопки вище."
+
+msgid "Students result form"
+msgstr "Форма результатів студентів"
+
+msgid "Grade report"
+msgstr "Звіт про оцінки"
+
+msgid "Mid exam"
+msgstr "Проміжний екзамен"
+
+msgid "Attendance"
+msgstr "Відвідуваність"
+
+msgid "Final exam"
+msgstr "Фінальний екзамен"
+
+msgid "Total"
+msgstr "Загалом"
+
+msgid "Point"
+msgstr "Бал"
+
+msgid "Grade"
+msgstr "Оцінка"
+
+msgid "Comment"
+msgstr "Коментар"
+
+msgid "Assesment Results"
+msgstr "Результати оцінювання"
+
+msgid "Grade Results"
+msgstr "Результати оцінок"
+
+msgid "Points"
+msgstr "Бали"
+
+msgid "PASS"
+msgstr "ЗДАВ"
+
+msgid "FAIL"
+msgstr "НЕ ЗДАВ"
+
+msgid "Total first semester credit:"
+msgstr "Загальні кредити першого семестру:"
+
+msgid "First Semester GPA:"
+msgstr "Середній бал першого семестру:"
+
+msgid "GRADE"
+msgstr "ОЦІНКА"
+
+msgid "Total second semester credit:"
+msgstr "Загальні кредити другого семестру:"
+
+msgid "Total Credit:"
+msgstr "Загальні кредити:"
+
+msgid "Second Semester GPA:"
+msgstr "Середній бал другого семестру:"
+
+msgid "Previous CGPA:"
+msgstr "Попередній середній бал:"
+
+msgid "Search result for"
+msgstr "Результати пошуку для"
+
+msgid "Search"
+msgstr "Пошук"
+
+msgid "result"
+msgstr "результат"
+
+msgid "Program of"
+msgstr "Програма"
+
+msgid "News And Events"
+msgstr "Новини та події"
+
+msgid "Date:"
+msgstr "Дата:"
+
+msgid "quiz"
+msgstr "вікторина"
+
+msgid "Course:"
+msgstr "Курс:"
+
+msgid "Search by:"
+msgstr "Шукати за:"
+
+msgid "Title or Description"
+msgstr "Назва або опис"
+
+msgid "Title, Code or Description"
+msgstr "Назва, код або опис"
+
+msgid "Title, Description or just by typing news or event"
+msgstr "Назва, опис або просто введіть новини або подію"
+
+msgid "Title, Description or Category(practice, assignment and exam)"
+msgstr "Назва, опис або категорія (практика, завдання та екзамен)"
+
+msgid "Manage"
+msgstr "Управління"
+
+msgid "students"
+msgstr "студенти"
+
+msgid "sessions"
+msgstr "сесії"
+
+msgid "semesters"
+msgstr "семестри"
+
+msgid "Switch"
+msgstr "Перемкнути"
+
+msgid "programs"
+msgstr "програми"
+
+msgid "course allocations"
+msgstr "розподіл курсів"
+
+msgid "Password Change"
+msgstr "Зміна пароля"
+
+msgid "Change Password"
+msgstr "Змінити пароль"
+
+msgid "Account setting"
+msgstr "Налаштування облікового запису"
+
+msgid "Account Settings"
+msgstr "Налаштування облікового запису"
+
+msgid "Update Profile"
+msgstr "Оновити профіль"
+
+msgid "Course Allocation"
+msgstr "Розподіл курсів"
+
+msgid "Manage Session"
+msgstr "Управління сесією"
+
+msgid "Manage Semester"
+msgstr "Управління семестром"
+
+msgid "Assessment Results"
+msgstr "Результати оцінювання"
+
+msgid "Drop Course"
+msgstr "Відмовитися від курсу"
+
+msgid "Account Setting"
+msgstr "Налаштування облікового запису"
+
+msgid "File upload"
+msgstr "Завантаження файлу"
+
+msgid "File upload for"
+msgstr "Завантаження файлу для"
+
+msgid "File Upload Form"
+msgstr "Форма завантаження файлу"
+
+msgid "Upload"
+msgstr "Завантажити"
+
+msgid "Video upload"
+msgstr "Завантаження відео"
+
+msgid "Video upload for"
+msgstr "Завантаження відео для"
+
+msgid "Video Upload Form"
+msgstr "Форма завантаження відео"
+
+msgid "No video description set."
+msgstr "Немає опису відео."
