@@ -12,7 +12,7 @@
     url("../fonts/rubik-v14-latin/rubik-v14-latin-300.svg#Rubik") format("svg");
 }
 :root {
-  --primary: #f8d270;
+  --primary: #0d6efd;
 }
 *,
 body {
@@ -38,11 +38,11 @@ body {
 }
 ::-moz-selection {
   background-color: var(--primary);
-  color: #000;
+  color: #fff;
 }
 ::selection {
   background-color: var(--primary);
-  color: #000;
+  color: #fff;
 }
 a {
   color: var(--bs-primary);

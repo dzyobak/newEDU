@@ -1354,3 +1354,6 @@ msgstr "Форма завантаження відео"
 
 msgid "No video description set."
 msgstr "Немає опису відео."
+
+msgid "Programs & Courses"
+msgstr "Програми і курси"

@@ -19,7 +19,7 @@
 }
 
 :root {
-  --primary: #f8d270;
+  --primary: #0d6efd;
 }
 
 *,
@@ -55,10 +55,8 @@ body {
 
 /* Override the text selection highlight color */
 ::selection {
-  background-color: var(
-    --primary
-  ); /* Custom background color for selected text */
-  color: #000; /* Custom text color for selected text */
+  background-color: var(--primary); /* Custom background color for selected text */
+  color: #fff; /* Custom text color for selected text */
 }
 
 a {
