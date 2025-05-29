@@ -76,11 +76,29 @@ class Course(models.Model):
         return f"{self.title} ({self.code})"
 
     def get_absolute_url(self):
+        if not self.slug:
+            self.generate_slug()
+            self.save()
         return reverse("course_detail", kwargs={"slug": self.slug})
+
+    def generate_slug(self):
+        if not self.slug:
+            # Generate slug from title and code to ensure uniqueness
+            base_slug = f"{self.title}-{self.code}".lower()
+            # Remove special characters and replace spaces with hyphens
+            base_slug = ''.join(c for c in base_slug if c.isalnum() or c == ' ')
+            base_slug = base_slug.replace(' ', '-')
+            # Ensure uniqueness by adding a number if needed
+            slug = base_slug
+            counter = 1
+            while Course.objects.filter(slug=slug).exclude(pk=self.pk).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
+            self.slug = slug
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = unique_slug_generator(self)
+            self.generate_slug()
         super().save(*args, **kwargs)
 
     @property
