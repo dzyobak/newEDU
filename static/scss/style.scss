@@ -1252,3 +1252,17 @@ video {
     transition: 0.5s;
   }
 }
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-theme a {
+  color: #bb86fc;
+}
+
+body.dark-theme button {
+  background-color: #bb86fc;
+  color: #121212;
+}

@@ -78,9 +78,13 @@ class Course(models.Model):
     def get_absolute_url(self):
         return reverse("course_detail", kwargs={"slug": self.slug})
 
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = unique_slug_generator(self)
+        super().save(*args, **kwargs)
+
     @property
     def is_current_semester(self):
-
         current_semester = Semester.objects.filter(is_current_semester=True).first()
         return self.semester == current_semester.semester if current_semester else False
 
