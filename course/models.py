@@ -6,6 +6,7 @@ from django.db.models.signals import pre_save, post_delete, post_save
 from django.dispatch import receiver
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
+from django.utils.text import slugify
 
 from core.models import ActivityLog, Semester
 from core.utils import unique_slug_generator
@@ -232,9 +233,29 @@ class UploadVideo(models.Model):
         return f"{self.title}"
 
     def get_absolute_url(self):
+        if not self.slug:
+            self.generate_slug()
+            self.save()
         return reverse(
             "video_single", kwargs={"slug": self.course.slug, "video_slug": self.slug}
         )
+
+    def generate_slug(self):
+        if not self.slug:
+            # Generate slug from title to ensure uniqueness
+            base_slug = slugify(self.title)
+            # Ensure uniqueness by adding a number if needed
+            slug = base_slug
+            counter = 1
+            while UploadVideo.objects.filter(slug=slug).exclude(pk=self.pk).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
+            self.slug = slug
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.generate_slug()
+        super().save(*args, **kwargs)
 
     def delete(self, *args, **kwargs):
         self.video.delete(save=False)
